@@ -1,0 +1,81 @@
+.skils{
+   
+  
+    margin-left: 46px;
+    margin-right: 46px;
+    margin-top: 10px; 
+    padding: 45px; 
+    background-color: #081b29;
+     /* border: 2px solid green; */
+}
+#container {
+   
+     /* border: 2px solid green; */
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    border-radius: 10px;
+    padding: 20px;
+    /* max-width:600px; */
+  
+  }
+
+.skil {
+    text-align:center;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .skill {
+    flex: 1;
+    text-align:left;
+    margin: 5px;
+    text-shadow: #3f0feb 0 -2px; ;
+  }
+
+  .progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid aqua;
+  }
+
+  .progress {
+    height: 10px;
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+    border-radius: 5px;
+   
+  }
+
+  @media (max-width: 600px) {
+    .skills {
+      flex-direction: column;
+    }
+  }
+  
+@media (max-width: 900px) {
+   .skills {
+    margin-left: 34px;
+    margin-right: 34px;
+   
+  }
+}
+
+ @media (max-width: 800px) {
+   .skills {
+    margin-left: 30px;
+    margin-right: 30px;
+    
+  }
+} 
+
+@media (max-width: 650px) {
+   .skills {
+    margin-left: 24px;
+    margin-right: 24px;
+   
+  }
+}

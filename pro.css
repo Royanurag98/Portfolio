@@ -1,0 +1,128 @@
+.project{
+    /* width: 100%;
+    height:800px; */
+   
+    background-color: #081b29;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+	margin-left: 46px;
+    margin-right: 46px; 
+	color: black;
+    
+}
+
+
+
+
+/* Cards */
+.cardsb{
+	display: flex;
+	 justify-content:center;
+    column-gap: 15px;
+	row-gap: 10px;
+	margin-top:5px;
+}
+.cardsb .cardba{
+	 width: 30%;
+	 /* height: 400px; */
+	cursor: pointer;
+}
+.cardba:hover .front{
+	background: #04cfbe;
+	box-shadow: 0 0 40px 2px  #04cfbe;
+	transform: translateY(0);
+}
+.cardba:hover .front h2{
+	color:black;
+}
+.cardba:hover .back{
+	transform: translateY(0);
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+}
+.front{
+	background: #343334;
+	position: relative;
+	z-index: 10;
+	text-align: center;
+	padding: 10px 0;
+	transition: 0.5s;
+	transform: translateY(100px);
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+}
+.front h2{
+	color: #5B595B;
+	font-size: 110px;
+	transition: 0.5s;
+}
+.back{
+	background: #fff;
+	position: relative;
+	z-index: 5;
+	padding: 5px;
+	transform: translateY(-122px);
+	transition: 0.5s;
+	height: 100px;
+}
+.back h3{
+	font-size: 40px;
+}
+.back p{
+	font-size: 17px;
+	margin-top: 20px;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+/* Media */
+@media (max-width: 1001px){
+	.container{
+		width: 800px;
+	}
+	.back h3{
+		font-size: 30px;
+	}
+	.back p{
+		font-size: 14px;
+	}
+}
+@media (max-width: 801px){
+	.container{
+		width: 600px;
+	}
+	.back h3{
+		font-size: 26px;
+	}
+	.back p{
+		font-size: 12px;
+	}
+}
+@media (max-width: 600px){
+	.container{
+		width: 100%;
+	}
+	.cardsb{
+		flex-direction: column;
+		justify-content: center;
+		align-self: center;
+		column-gap: 0;
+		margin-top: 0%;
+	}
+	.cardba{
+		 width:100% !important; 
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.back{
+		transform: translateY(0);
+		box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+	}
+	.front{
+		transform: translateY(0);
+		background: #ed00bc;
+		box-shadow: 0 0 40px 2px #ed00bc;
+	}
+	.front h2{
+		color:black;
+	}
+}
