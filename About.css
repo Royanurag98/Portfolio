@@ -17,7 +17,7 @@
     border-radius: 5%;   
 } 
 .div{
-    /* border: 2px solid green; */
+    /* border: 2px solid #802b00; */
     padding: 20px;
 }
  .About{
@@ -28,7 +28,17 @@
     margin-top: 10px; 
     padding: 45px; 
     background-color: hsl(180, 1%, 13%);
+    /* border: 2px solid green; */
 
+}
+@media(max-width:450px){
+  section .About{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 900px) {

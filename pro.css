@@ -11,6 +11,13 @@
 	color: black;
     
 }
+@media(max-width:450px){
+	.project{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+}
 
 
 

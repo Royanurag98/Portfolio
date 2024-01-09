@@ -10,6 +10,18 @@
   
     
 }
+@media(max-width:450px){
+    #contact-section{
+     
+        padding-left: 0%;
+      
+        padding-right: 0%;
+        margin-left: 0px;
+        margin-right: 0px;
+
+        
+    }
+}
 @media(max-width:750px){
     .contact-container{
         display: flex;
@@ -33,6 +45,7 @@
      padding-right: 0px;
     }
 }
+
 @media(max-width:750px){
     .contact-right-side {
       /* width:100%;  */
@@ -68,6 +81,12 @@
     justify-content: space-evenly;
     padding: 20px 50px;
     /* border: 2px solid red; */
+}
+@media(max-width:450px){
+    .contact-container {
+     /* width: 100%; */
+    padding:0px 0px;
+    }
 }
 .contact-left-side{
     /* width: 40%; */

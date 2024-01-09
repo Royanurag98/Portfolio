@@ -11,6 +11,20 @@
 ul {
     list-style: none;
   }
+  @media(max-width:500px){
+    .Services{
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px; 
+    }
+  }
+  @media(max-width:500px){
+    .cards__card .card{
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px; 
+    }
+  }
   
   .main {
     max-width: 75rem;

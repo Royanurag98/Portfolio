@@ -8,6 +8,13 @@
     background-color: #081b29;
      /* border: 2px solid green; */
 }
+@media(max-width:450px){
+  .skils{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 45px;
+  }
+}
 #container {
    
      /* border: 2px solid green; */
