@@ -2,7 +2,7 @@
 .heading{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
     font-size: 2.3rem;   
 }
 
@@ -18,16 +18,17 @@
 } 
 .div{
     /* border: 2px solid #802b00; */
-    padding: 20px;
+    padding: 30px;
 }
  .About{
 
-    column-gap: 5px;
-    margin-left: 46px;
-    margin-right: 46px;
+  row-gap: 5px;
+    /* column-gap: 3px; */
+    margin-left: 55px;
+    margin-right: 55px;
     margin-top: 10px; 
-    padding: 45px; 
-    background-color: hsl(180, 1%, 13%);
+    padding: 60px; 
+    background-color:black;
     /* border: 2px solid green; */
 
 }
@@ -85,7 +86,7 @@
     text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
-    margin-top: 2px;
+    margin-top: 20px;
     letter-spacing: 1px;
     margin-left: 10px;
     
@@ -129,6 +130,7 @@
     right: 0;
     width: 2px;
     height: 100%;
+
     background: linear-gradient(180deg, transparent, #ae0606);
     animation: btn-anim2 1s linear infinite;
     animation-delay: .25s
